@@ -1,0 +1,11 @@
+{
+  "name": "oasis-platform",
+  "private": true,
+  "scripts": {
+    "oasis": "npx concurrently \"npm run dev -w client-app\" \"npm run dev -w staff-portal\""
+  },
+  "workspaces": [
+    "client-app",
+    "staff-portal"
+  ]
+}
